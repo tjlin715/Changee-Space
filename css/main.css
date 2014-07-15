@@ -126,6 +126,7 @@ h1 {
 
 .tabs {
   font-size: 0;
+  padding: 0;
 }
 
 .tab {
@@ -145,10 +146,12 @@ h1 {
     box-shadow:         inset -1px -1px 0px 0px rgba(50, 50, 50, 0.4);
 
 
+
     -webkit-transition: background 0.3s;
     -moz-transition: background 0.3s;
     -o-transition: background 0.3s;
     transition: background 0.3s;
+
 
 }
 
@@ -158,12 +161,53 @@ h1 {
 }
 
 
+
+
+li {
+  font-size: 16px;
+  list-style: none;
+  display: inline-block;
+}
+
+.fa {
+  margin-right: 8px;
+}
+
+.btn {
+  color: #f1f1f1;
+  margin-right: 8px;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background: #50b599;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0px -2px #3e947c;
+  -moz-box-shadow: inset 0px -2px #3e947c;
+  box-shadow: inset 0px -2px #3e947c;
+  
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #3e947c;
+}
+
+
+
 a {
   color: #000;
 }
 
 
 
+
+div {
+  text-align: center;
+  padding: 2em ;
+}
 
 
 
